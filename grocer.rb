@@ -57,7 +57,7 @@ def apply_coupons(cart, coupons)
 def apply_clearance(cart)
   
   
-  cart.each do |product| 
+  cart.each do |product, stats| 
     
     if cart.has_key?(item) 
       
