@@ -56,19 +56,22 @@ def apply_coupons(cart, coupons)
 
 def apply_clearance(cart)
   
-  
   cart.each do |product, stats| 
     
        stats[:price] -= stats[:price] * 0.20 if stats[:clearance]
        
    end
-   
   return cart
-  
 end
 
 
 
 def checkout(cart, coupons)
-  # code here
+  
+  
+  
+  
+
 end
+
+
