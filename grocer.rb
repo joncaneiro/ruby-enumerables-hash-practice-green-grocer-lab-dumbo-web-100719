@@ -55,7 +55,19 @@ def apply_coupons(cart, coupons)
 
 
 def apply_clearance(cart)
-  # code here
+  
+  cart.each do |item| 
+    
+    if cart.has_key?(item) 
+      
+      if cart[item] && [item][:clearance] == TRUE
+        
+        cart[item][:price] / 
+      
+      
+  
+  
+  
 end
 
 
