@@ -68,7 +68,8 @@ end
 
 def checkout(cart, coupons)
   
-  if cart[item]
+  hash_cart = consolidate_cart(cart)
+  applied_coupons = apply_coupons(hash_cart)
   
   
 
