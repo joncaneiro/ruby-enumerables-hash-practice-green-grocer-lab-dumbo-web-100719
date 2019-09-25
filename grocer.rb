@@ -68,7 +68,7 @@ end
 
 def checkout(cart, coupons)
   
-  
+  if cart[item]
   
   
 
