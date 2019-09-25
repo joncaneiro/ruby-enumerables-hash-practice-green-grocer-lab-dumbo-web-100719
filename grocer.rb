@@ -59,7 +59,7 @@ def apply_clearance(cart)
   
   cart.each do |product, stats| 
     
-       binding.pry
+       stats[:price] -= stats[:price] * 0.12
    end
   return cart
 end
