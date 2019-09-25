@@ -59,7 +59,7 @@ def apply_clearance(cart)
   
   cart.each do |product, stats| 
     
-       stats[:price] -= stats[:price] * 0.12
+       stats[:price] -= stats[:price] * 0.20 if stats[:clearance]
    end
   return cart
 end
