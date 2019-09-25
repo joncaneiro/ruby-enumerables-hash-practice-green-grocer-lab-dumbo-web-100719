@@ -64,8 +64,10 @@ def apply_clearance(cart)
       if cart[item] && [item][:clearance] == TRUE
         
          clearance_price = cart[item][:price] / 0.20 
+        
+         clearance_price
       
-      eslif 
+      elsif  
   
   
   
