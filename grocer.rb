@@ -56,15 +56,16 @@ def apply_coupons(cart, coupons)
 
 def apply_clearance(cart)
   
+  
   cart.each do |item| 
     
     if cart.has_key?(item) 
       
       if cart[item] && [item][:clearance] == TRUE
         
-        cart[item][:price] / 
+        cart[item][:price] / 0.20 
       
-      
+      eslif 
   
   
   
