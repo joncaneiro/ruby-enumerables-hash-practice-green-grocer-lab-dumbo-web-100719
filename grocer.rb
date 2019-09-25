@@ -59,16 +59,7 @@ def apply_clearance(cart)
   
   cart.each do |product, stats| 
     
-    if cart.has_key?(item) 
-      
-      if cart[item] && [item][:clearance] == TRUE
-        
-         clearance_price = cart[item][:price] * 0.80 
-        
-         clearance_price
-      
-      elsif  
-  
+       binding.pry
    end
   return cart
 end
