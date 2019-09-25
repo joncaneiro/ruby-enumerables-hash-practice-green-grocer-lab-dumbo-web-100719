@@ -76,7 +76,6 @@ def checkout(cart, coupons)
   
   total > 100 ? total * 0.90 : total 
   
-  
 
 end
 
